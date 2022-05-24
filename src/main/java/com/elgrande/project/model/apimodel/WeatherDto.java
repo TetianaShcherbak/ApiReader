@@ -1,4 +1,4 @@
-package com.elgrande.project.model.api.model;
+package com.elgrande.project.model.apimodel;
 
 import lombok.Builder;
 import lombok.Getter;

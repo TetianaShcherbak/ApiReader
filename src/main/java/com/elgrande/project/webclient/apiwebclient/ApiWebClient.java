@@ -1,4 +1,4 @@
-package com.elgrande.project.webclient.api.webclient;
+package com.elgrande.project.webclient.apiwebclient;
 
 import org.springframework.stereotype.Component;
 

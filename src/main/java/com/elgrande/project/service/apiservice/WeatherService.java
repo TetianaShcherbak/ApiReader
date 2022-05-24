@@ -1,7 +1,7 @@
-package com.elgrande.project.service.api.service;
+package com.elgrande.project.service.apiservice;
 
-import com.elgrande.project.model.api.model.WeatherDto;
-import com.elgrande.project.webclient.api.webclient.weather.WeatherClientImpl;
+import com.elgrande.project.model.apimodel.WeatherDto;
+import com.elgrande.project.webclient.apiwebclient.weatherclient.WeatherClientImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

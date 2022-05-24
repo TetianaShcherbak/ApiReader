@@ -1,4 +1,4 @@
-package com.elgrande.project.webclient.api.webclient.dto.weather.dto;
+package com.elgrande.project.webclient.apiwebclient.dto.weatherclientdto;
 
 import lombok.Getter;
 

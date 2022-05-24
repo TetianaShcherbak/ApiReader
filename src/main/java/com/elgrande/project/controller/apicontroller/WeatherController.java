@@ -1,12 +1,11 @@
-package com.elgrande.project.controller.api.controller;
+package com.elgrande.project.controller.apicontroller;
 
-import com.elgrande.project.webclient.api.webclient.ApiMetaData;
-import com.elgrande.project.webclient.api.webclient.weather.WeatherClientImpl;
+import com.elgrande.project.webclient.apiwebclient.weatherclient.WeatherClientImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.elgrande.project.model.api.model.WeatherDto;
-import com.elgrande.project.service.api.service.WeatherService;
+import com.elgrande.project.model.apimodel.WeatherDto;
+import com.elgrande.project.service.apiservice.WeatherService;
 
 @RestController
 @RequiredArgsConstructor

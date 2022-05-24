@@ -1,9 +1,4 @@
-package com.elgrande.project.webclient.api.webclient;
-
-import jdk.jfr.BooleanFlag;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+package com.elgrande.project.webclient.apiwebclient;
 
 import java.util.HashMap;
 import java.util.Map;

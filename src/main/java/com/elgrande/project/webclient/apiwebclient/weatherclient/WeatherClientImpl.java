@@ -1,12 +1,12 @@
-package com.elgrande.project.webclient.api.webclient.weather;
+package com.elgrande.project.webclient.apiwebclient.weatherclient;
 
-import com.elgrande.project.model.api.model.WeatherDto;
-import com.elgrande.project.webclient.api.webclient.ApiMetaData;
-import com.elgrande.project.webclient.api.webclient.dto.weather.dto.WeatherApiClientDto;
+import com.elgrande.project.model.apimodel.WeatherDto;
+import com.elgrande.project.webclient.apiwebclient.ApiMetaData;
+import com.elgrande.project.webclient.apiwebclient.ApiWebClient;
+import com.elgrande.project.webclient.apiwebclient.dto.weatherclientdto.WeatherApiClientDto;
 import org.springframework.http.*;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-import com.elgrande.project.webclient.api.webclient.ApiWebClient;
 
 import java.util.Collections;
 import java.util.HashMap;
