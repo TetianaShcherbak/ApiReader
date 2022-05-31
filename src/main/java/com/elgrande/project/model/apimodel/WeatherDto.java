@@ -14,4 +14,19 @@ public class WeatherDto {
     private int pressure;
     private int humidity;
     private float wingSpeed;
+
+
+    @Override
+    public String toString() {
+        return "WeatherDto{" +
+                "mainParameter='" + mainParameter + '\'' +
+                ", description='" + description + '\'' +
+                ", icon='" + icon + '\'' +
+                ", temperature=" + temperature +
+                ", feelsLike=" + feelsLike +
+                ", pressure=" + pressure +
+                ", humidity=" + humidity +
+                ", wingSpeed=" + wingSpeed +
+                '}';
+    }
 }

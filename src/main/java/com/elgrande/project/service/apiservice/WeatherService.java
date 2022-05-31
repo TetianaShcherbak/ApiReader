@@ -11,10 +11,8 @@ public class WeatherService {
 
     private final WeatherClientImpl weatherClient;
 
-    public WeatherDto getWeather(){
-        String cityName = "London";
+    public WeatherDto getWeather(String cityName){
         WeatherDto response = weatherClient.getCityWeather(cityName);
-        System.out.println(response.toString());
-        return null;
+        return response;
     }
 }
